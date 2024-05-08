@@ -1,0 +1,177 @@
+[Test 1]
+
+--------------------------------------------------
+*** Welcome to Stock Value Calculator Program! ***
+--------------------------------------------------
+Enter stock's name:Mario and Luigi's Software Inc.
+Enter the total number of purchased shares: 1500
+Enter the dollar amount paid per a purchased share: 15.87
+Enter the total number of sold shares: 1500
+Enter the dollar amount paid per a sold share: 16.9
+**************************************************
+                Purchasing Report
+**************************************************
+Stock Name: Mario and Luigi's Software Inc.
+Total Purchase Amount: $23805.0
+Purchase Commission: $0
+**************************************************
+                  Selling Report
+**************************************************
+Total Sold Amount: $25350.0
+Sold Commission: $50
+**************************************************
+Congratulation, Total Profit: $1495.0
+**************************************************
+
+
+[Test 2]
+
+--------------------------------------------------
+*** Welcome to Stock Value Calculator Program! ***
+--------------------------------------------------
+Enter stock's name:Mario and Luigi's Software Inc.  
+Enter the total number of purchased shares: 500
+Enter the dollar amount paid per a purchased share: 10
+Enter the total number of sold shares: 500
+Enter the dollar amount paid per a sold share: 9
+**************************************************
+                Purchasing Report
+**************************************************
+Stock Name: Mario and Luigi's Software Inc.
+Total Purchase Amount: $5000.0
+Purchase Commission: $100
+**************************************************
+                  Selling Report
+**************************************************
+Total Sold Amount: $4500.0
+Sold Commission: $100
+**************************************************
+Good Luck Next Time, You Lost: $-700.0
+**************************************************
+
+
+[Test 3]
+
+--------------------------------------------------
+*** Welcome to Stock Value Calculator Program! ***
+--------------------------------------------------
+Enter stock's name:Mario and Luigi's Software Inc.
+Enter the total number of purchased shares: 2000
+Enter the dollar amount paid per a purchased share: 10
+Enter the total number of sold shares: 2000
+Enter the dollar amount paid per a sold share: 10
+**************************************************
+                Purchasing Report
+**************************************************
+Stock Name: Mario and Luigi's Software Inc.
+Total Purchase Amount: $20000.0
+Purchase Commission: $0
+**************************************************
+                  Selling Report
+**************************************************
+Total Sold Amount: $20000.0
+Sold Commission: $0
+**************************************************
+No Profit or Loss, Total Profit: $0.0
+**************************************************
+
+
+[Test 4]
+
+--------------------------------------------------
+*** Welcome to Stock Value Calculator Program! ***
+--------------------------------------------------
+Enter stock's name:Mario and Luigi's Software Inc.
+Enter the total number of purchased shares: 1500
+Enter the dollar amount paid per a purchased share: 10
+Enter the total number of sold shares: 1000
+Enter the dollar amount paid per a sold share: 20
+**************************************************
+                Purchasing Report
+**************************************************
+Stock Name: Mario and Luigi's Software Inc.
+Total Purchase Amount: $15000.0
+Purchase Commission: $0
+**************************************************
+                  Selling Report
+**************************************************
+Total Sold Amount: $20000.0
+Sold Commission: $50
+**************************************************
+Congratulation, Total Profit: $9950.0
+**************************************************
+
+
+[Test 5]
+
+--------------------------------------------------
+*** Welcome to Stock Value Calculator Program! ***
+--------------------------------------------------
+Enter stock's name:Mario and Luigi's Software Inc.
+Enter the total number of purchased shares: -1000
+Error: Number of purchased shares shouldbe > 0
+
+
+--------------------------------------------------
+*** Welcome to Stock Value Calculator Program! ***
+--------------------------------------------------
+Enter stock's name:Mario and Luigi's Software Inc.
+Enter the total number of purchased shares: 0
+Error: Number of purchased shares shouldbe > 0
+
+
+[Test 6]
+
+--------------------------------------------------
+*** Welcome to Stock Value Calculator Program! ***
+--------------------------------------------------
+Enter stock's name:Mario and Luigi's Software Inc.
+Enter the total number of purchased shares: 10
+Enter the dollar amount paid per a purchased share: -20
+Error: the purchase amount shouldbe > 0
+
+
+--------------------------------------------------
+*** Welcome to Stock Value Calculator Program! ***
+--------------------------------------------------
+Enter stock's name:Mario and Luigi's Software Inc.
+Enter the total number of purchased shares: 10
+Enter the dollar amount paid per a purchased share: 0
+Error: the purchase amount shouldbe > 0
+
+
+[Test 7]
+
+--------------------------------------------------
+*** Welcome to Stock Value Calculator Program! ***
+--------------------------------------------------
+Enter stock's name:Mario and Luigi's Software Inc.
+Enter the total number of purchased shares: 10
+Enter the dollar amount paid per a purchased share: 10
+Enter the total number of sold shares: -20
+Error: Number of sold shares shouldbe > 0 and mustbe <= number of purchased shares
+
+
+[Test 8]
+
+--------------------------------------------------
+*** Welcome to Stock Value Calculator Program! ***
+--------------------------------------------------
+Enter stock's name:Mario and Luigi's Software Inc.
+Enter the total number of purchased shares: 10
+Enter the dollar amount paid per a purchased share: 10
+Enter the total number of sold shares: 10
+Enter the dollar amount paid per a sold share: -10
+Error: The sold amount shouldbe > 0
+
+
+[Test 9]
+
+--------------------------------------------------
+*** Welcome to Stock Value Calculator Program! ***
+--------------------------------------------------
+Enter stock's name:Mario and Luigi's Software Inc.
+Enter the total number of purchased shares: 20
+Enter the dollar amount paid per a purchased share: 10
+Enter the total number of sold shares: 30
+Error: Number of sold shares shouldbe > 0 and mustbe <= number of purchased shares
