@@ -1,9 +1,9 @@
-# Stock Calculation Program
+## Stock Calculation Program
 
-## Additional Files
+### Additional Files
 - Flowchart: process of the program
 - Output Test Plan: program output
 
-## Technologies Used
+### Technologies Used
 
 Python
